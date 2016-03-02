@@ -14,24 +14,25 @@ function max(num1, num2){
 // ---------------------
 
 function maxOfThree(num1, num2, num3){
-    if (num1 > num2) {
-    	return console.log(num1);
-    } else if (num1 < num2) {
-    	return console.log(num2);
-    } else if (num3 > num1) {
-    	return console.log(num3);
-    } else if (num3 > num2); {
-    	return console.log(num3);
-    }
-}
+    var max = Math.max(num1, num2, num3);
+    return max;
+ }
+
 
 // ---------------------
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 // ---------------------
-
+	
 function isVowel(char){
-    //...
-}
+  var vowel = ['a', 'e', 'i', 'o', 'u'];
+  if (char === vowel[0] || char === vowel[1] || char === vowel[2] || char === vowel[3] || char === vowel[4]){
+  	return true;
+  } else {
+  	return false;
+  }
+  
+
+
 
 // ---------------------
 // Write a function translate() that will translate a text into "rÃ¶varsprÃ¥ket". That is, double every consonant and place an occurrence of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon".
