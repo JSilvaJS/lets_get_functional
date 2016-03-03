@@ -37,7 +37,7 @@ function isVowel(char){
 // ---------------------
 
 function rovarspraket(phrase){
-    //...
+    ////?????????????????????? NEED HELP IN CLASS!
 }
 
 
@@ -58,16 +58,16 @@ function reverse(string) {
 // Write a function findLongestWord() that takes an array of words and returns the length of the longest one.
 // ---------------------
 
-function findLongestWord(words){
-    //...
+function findLongestWord() { //?????????????????????? NEED HELP IN CLASS!
 }
+ 
 
 // ---------------------
 // Write a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i.
 // ---------------------
 
 function filterLongWords(words, i){
-    //...
+    ////?????????????????????? NEED HELP IN CLASS!
 }
 
 // ---------------------
@@ -75,5 +75,5 @@ function filterLongWords(words, i){
 // ---------------------
 
 function charFreq(string){
-    //...
+    ////?????????????????????? NEED HELP IN CLASS!
 }
