@@ -24,15 +24,13 @@ function maxOfThree(num1, num2, num3){
 // ---------------------
 	
 function isVowel(char){
-  var vowel = ['a', 'e', 'i', 'o', 'u'];
+  char = char.toUpperCase()
+  var vowel = ['A', 'E', 'I', 'O', 'U'];
   if (char === vowel[0] || char === vowel[1] || char === vowel[2] || char === vowel[3] || char === vowel[4]){
   	return true;
   } else {
   	return false;
-  }
-  
-
-
+  }}
 
 // ---------------------
 // Write a function translate() that will translate a text into "rÃ¶varsprÃ¥ket". That is, double every consonant and place an occurrence of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon".
@@ -47,9 +45,14 @@ function rovarspraket(phrase){
 // Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
 // ---------------------
 
-function reverse(){
-    //...
+//Had some help with String.prototype.split() page on MDE, but they showed me a few new tricks that I modified to the function presented.
+
+function reverse(string) {
+	var rev = (string.split('').reverse().join(''));
+    return rev;
 }
+
+
 
 // ---------------------
 // Write a function findLongestWord() that takes an array of words and returns the length of the longest one.
